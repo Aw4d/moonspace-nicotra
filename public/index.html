@@ -74,53 +74,14 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center p-4">
-
-    <div  data-aos="fade-up" class="container">
-      <div class="row">
-        <h1 data-aos="fade-up" style="margin-top: 6rem;">Tutto per i tuoi eventi</h1>
-        <div class="col-lg-6 d-flex flex-column ">
-          <br><br><br><br>
-          <br>
-          <h7 data-aos="fade-up" data-aos-delay="400">MoonSpace: la location polifunzionale nel Design District di Milano, 
-            perfetta per ogni tipo di evento aziendale o privato. Uno spazio recuperato dallo stile industriale del primo Novecento, 
-            che conserva l'anima del design italiano ma con un forte spirito internazionale.
-          </h7>
-        </div >
-        <div class="col-lg-6 pt-5" style="margin-top: 5%;">
-          <div  data-aos="fade-up" id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/img/slider1.jpg" class="d-block w-100" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/slider2.jpg" class="d-block w-100" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/slider3.jpg" class="d-block w-100" alt="Third slide">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/slider4.jpg" class="d-block w-100" alt="Fourth slide">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
+    <div class="filter"></div>
+    <div  class="box-hero-section-box">
+      <p class="text-1">FULL OF YOUR EVENT</p>
+      <span class="text-2">Lo spazio per il tuo evento</span>
+      <p class="text-3">Scopri il luogo perfetto per i tuoi eventi speciali! Il nostro spazio affittabile ti offre un ambiente moderno e personalizzabile, adatto a ogni occasione. Con tecnologie all'avanguardia e servizi di catering raffinati, garantiamo un'esperienza indimenticabile
+        per te e i tuoi ospiti. Prenota ora e crea ricordi indimenticabili nel nostro spazio unico.</p>
+      <button>Scopri di più</button>
     </div>
-
   </section><!-- End Hero -->
 
   <main id="main">
@@ -215,7 +176,6 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Contatti</h2>
           <p>Contattaci</p>
         </header>
 
@@ -281,9 +241,11 @@
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Il tuo messaggio è stato inviato. Grazie!</div>
-
-                  <button type="submit">Invia</button>
-                  <p style="margin-top:1rem;">Cliccando su Invia dichiaro di aver letto i <a href="PrivacyPolicy.html">termini</a></p>
+                  <div class="text-termini">
+                    <input type="checkbox"><a href="PrivacyPolicy.html">Cliccando su Invia dichiaro di aver letto i termini</a></input>
+                  </div>
+                <button type="submit">Invia</button>
+        
                 </div>
 
               </div>
@@ -312,12 +274,12 @@
       <div class="footer-top d-flex justify-content-center">
         <div style="z-index: 4;" class="container">
           <div class="row gy-4">
-            <div class="col-lg-5 col-md-12 footer-info">
+            <div class="col-lg-5 col-md-12 footer-info" class="footer-gabbo">
               <a href="index.html" class="logo d-flex align-items-center">
                 <img src="assets/img/logo.png" alt="">
               </a>
               <br>
-              <div class="social-links mt-3" style="margin-left: 120px;">
+              <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                 <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
                 <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
@@ -326,7 +288,7 @@
 
             <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
               <h4>Link utili</h4>
-              <ul>
+              <ul class="elencoLink">
                 <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
                 <li><i class="bi bi-chevron-right"></i> <a href="#hero">Chi siamo</a></li>
                 <li><i class="bi bi-chevron-right"></i> <a href="#spazi">Spazi</a></li>
@@ -340,8 +302,6 @@
                 Via Bergognone 3 <br>
                 Milano, MI <br>
                 Italia <br><br>
-                <strong>Telefono:</strong> +39 335 62 82 667<br>
-                <strong>Email:</strong> s.bassi@barabino.it<br>
               </p>
 
             </div>
